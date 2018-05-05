@@ -51,11 +51,13 @@
     <Compile Include="100\_0006_CreateCommunityCategoryTable.cs" />
     <Compile Include="100\_0007_CreateCommunityTable.cs" />
     <Compile Include="100\_0008_CreateCommunityUserTable.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

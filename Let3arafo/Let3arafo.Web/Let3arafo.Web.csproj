@@ -6,10 +6,18 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
+    <PackageReference Include="SD.LLBLGen.Pro.ORMSupportClasses" Version="5.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data\View\View.csproj" />
+    <ProjectReference Include="..\Let3arafo.Core\Let3arafo.Core.csproj" />
+    <ProjectReference Include="..\SK.Framework\SK.Framework.csproj" />
   </ItemGroup>
 
 </Project>

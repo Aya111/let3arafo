@@ -1,0 +1,16 @@
+﻿@model List<View.DtoClasses.Post>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach(var post in Model)
+{
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">@post.Creator.UserName</div>
+        <div class="card-body">@post.Text</div>
+    </div>
+</div>
+}
+
